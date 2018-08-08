@@ -1,0 +1,30 @@
+body {
+    box-sizing: border-box;
+}
+
+.rendered {
+    text-align: center;
+}
+
+.movie_Card {
+    border-radius: 8px;
+    margin: 10px 10px;
+    border: 3px solid salmon;
+    box-shadow: 0 3px 5px 0 salmon;
+    display: inline-block;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.movie_Card div {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 230px;
+    margin: 5px 0;
+}
+
+.movie_Card img {
+    display: block;
+    margin: 0 0 10px 0;
+}

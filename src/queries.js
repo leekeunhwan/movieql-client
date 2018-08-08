@@ -6,6 +6,8 @@ export const HOME_PAGE = gql`
       id
       title
       genres
+      rating
+      medium_cover_image
     }
   }
 `;
