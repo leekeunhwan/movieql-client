@@ -11,10 +11,10 @@ class App extends Component {
       // react-apollo도 Provider와 Consumer가 있는데 흡사 Context API와 Redux 같다. - 하지만 본질적으로 다르다.
       <ApolloProvider client={client}>
         <Router>
-          <React.Fragment>
+          <main>
             <Route exact={true} path={"/"} component={Home} />
             <Route path={"/details/:movieId"} component={Detail} />
-          </React.Fragment>
+          </main>
         </Router>
       </ApolloProvider>
     );
